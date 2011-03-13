@@ -1,0 +1,4 @@
+#!/this/will/be/overritten/or/wrapped/anyways/do/not/warry/ruby
+# -*- encoding: UTF-8 -*-
+
+require 'web_invoice/cli'
