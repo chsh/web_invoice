@@ -5,13 +5,14 @@
 
 Gem::Specification.new do |s|
   s.name = %q{web_invoice}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["CHIKURA Shinsaku"]
-  s.date = %q{2011-03-13}
+  s.authors = [%q{CHIKURA Shinsaku}]
+  s.date = %q{2011-09-05}
   s.description = %q{Simple Web Invoice Downloader}
   s.email = %q{chsh@thinq.jp}
+  s.executables = [%q{webinvoice}]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -20,18 +21,23 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "bin/webinvoice",
     "lib/web_invoice.rb",
+    "lib/web_invoice/cli.rb",
+    "lib/web_invoice/saison_card.rb",
     "spec/spec_helper.rb",
-    "spec/web_invoice_spec.rb"
+    "spec/web_invoice_spec.rb",
+    "web_invoice.gemspec"
   ]
   s.homepage = %q{http://github.com/chsh/web_invoice}
-  s.licenses = ["MIT"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.5.2}
+  s.licenses = [%q{MIT}]
+  s.require_paths = [%q{lib}]
+  s.rubygems_version = %q{1.8.7}
   s.summary = %q{Web Invoice Downloader}
   s.test_files = [
     "spec/spec_helper.rb",
