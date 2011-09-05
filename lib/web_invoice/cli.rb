@@ -1,4 +1,6 @@
 
+require 'yaml'
+
 require 'optparse'
 require 'web_invoice'
 
